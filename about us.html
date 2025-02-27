@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finsweet</title>
+    <link rel="stylesheet" href="src/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body class="bg-white dark:bg-gray-900 text-black dark:text-white">
+    <!-- region-project -->
+    <div class="wrapper">
+      <!-- header -->
+      <header class="bg-[#1C1E53] dark:bg-gray-800 shadow-md">
+        <div
+          class="container mx-auto px-6 py-4 flex justify-between items-center"
+        >
+          <!-- Logo -->
+          <div class="text-2xl font-bold text-white">Finsweet</div>
+
+          <!-- Menu and Button -->
+          <div class="flex items-center space-x-6">
+            <!-- Menu -->
+            <nav class="hidden md:flex space-x-6">
+              <a
+                href="./index.html"
+                class="text-white hover:text-gray-400 no-underline"
+                >Home</a
+              >
+              <a href="#" class="text-white hover:text-gray-400">About us</a>
+              <a href="#" class="text-white hover:text-gray-400">Features</a>
+              <a href="./pricing.html" class="text-white hover:text-gray-400"
+                >Pricing</a
+              >
+              <a href="#" class="text-white hover:text-gray-400">FAQ</a>
+              <a href="#" class="text-white hover:text-gray-400">Blog</a>
+            </nav>
+
+            <!-- Button -->
+            <button
+              class="bg-[#1C1E53] text-white px-4 py-2 rounded-pill hover:bg-blue-700"
+            >
+              Contact us
+            </button>
+
+            <!-- Mobile Menu Button -->
+            <button class="md:hidden text-white focus:outline-none">
+              <svg
+                class="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16m-7 6h7"
+                ></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="hidden md:hidden">
+          <nav class="flex flex-col space-y-4 px-6 py-4">
+            <a href="#" class="text-white hover:text-gray-400">Home</a>
+            <a href="#" class="text-white hover:text-gray-400">About us</a>
+            <a href="#" class="text-white hover:text-gray-400">Features</a>
+            <a href="#" class="text-white hover:text-gray-400">Pricing</a>
+            <a href="#" class="text-white hover:text-gray-400">FAQ</a>
+            <a href="#" class="text-white hover:text-gray-400">Blog</a>
+            <a href="#" class="text-white hover:text-gray-400">Contact us</a>
+          </nav>
+        </div>
+      </header>
+      <!-- End header -->
+      <!-- hero -->
+      <div class="w-full">
+        <div
+          class="container h-[672px] justify-between items-center flex flex-col lg:flex-row"
+        >
+          <div
+            class="left lg:w-[595px] lg:h-[303px] sm:text-center lg:text-left sm:mt-10"
+          >
+            <p>About us</p>
+            <p class="text-5xl font-bold">Our designs solve problems</p>
+            <p class="text-gray-500 dark:text-gray-400 pt-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam.
+            </p>
+          </div>
+          <div class="right lg:w-[547px] bg-emerald-500 mt-6 lg:mt-0">
+            <img src="src/images/about us.png" alt="" class="w-full h-auto" />
+          </div>
+        </div>
+      </div>
+      <!-- End hero -->
+      <!-- who we are -->
+      <div class="w-full lg:h-[1000px] flex items-center justify-center">
+        <div class="container lg:h-[716px]">
+          <div
+            class="top lg:h-[376px] bg-[#F4F5F5] dark:bg-gray-800 flex flex-col lg:flex-row justify-center items-center gap-3"
+          >
+            <div class="left w-full lg:w-5/12 text-center lg:text-left">
+              <p>Who we are</p>
+              <p class="text-4xl">Goal focussed</p>
+              <p class="w-5/6 mx-auto lg:mx-0 text-gray-500 dark:text-gray-400">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+            <div
+              class="right w-full lg:w-5/12 mt-6 lg:mt-0 pl-0 lg:pl-14 text-center lg:text-left"
+            >
+              <p class="text-4xl">Continuous improvement</p>
+              <p class="w-5/6 mx-auto lg:mx-0 text-gray-500 dark:text-gray-400">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+          </div>
+          <div class="bottom lg:h-[340px] mt-6 lg:mt-0">
+            <img
+              class="object-cover w-full h-100"
+              src="./src/images/about us-2.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <!-- End who we are -->
+      <!-- process -->
+      <div class="w-full">
+        <div class="container flex-col items-center justify-center my-20">
+          <p class="text-center font-bold text-4xl mb-5">
+            The process we follow
+          </p>
+          <div
+            class="flex flex-col lg:flex-row justify-center items-center gap-6"
+          >
+            <div class="text-center">
+              <div>
+                <img src="./src/images/Line and Icon.svg" alt="" />
+              </div>
+              <p class="text-2xl mt-4">Planning</p>
+              <p class="text-gray-500 dark:text-gray-400">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+              </p>
+            </div>
+            <div class="text-center">
+              <div>
+                <img src="./src/images/Line and Icon.svg" alt="" />
+              </div>
+              <p class="text-2xl mt-4">Conception</p>
+              <p class="text-gray-500 dark:text-gray-400">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+              </p>
+            </div>
+            <div class="text-center">
+              <div>
+                <img src="./src/images/Line and Icon.svg" alt="" />
+              </div>
+              <p class="text-2xl mt-4">Design</p>
+              <p class="text-gray-500 dark:text-gray-400">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+              </p>
+            </div>
+            <div class="text-center">
+              <div>
+                <img src="./src/images/Line and Icon.svg" alt="" />
+              </div>
+              <p class="text-2xl mt-4">Development</p>
+              <p class="text-gray-500 dark:text-gray-400">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End process -->
+      <!-- mission -->
+      <div
+        class="w-full bg-[#f4eefa] dark:bg-gray-800 lg:h-[1022px] flex justify-center items-center"
+      >
+        <div class="container">
+          <div
+            class="top justify-between items-center flex flex-col lg:flex-row mb-5"
+          >
+            <div
+              class="left lg:w-[595px] lg:h-[303px] pt-5 text-center lg:text-left"
+            >
+              <p>Our Mission</p>
+              <p class="text-5xl font-bold">Inspire, Innovate, Share</p>
+              <p class="text-gray-500 dark:text-gray-400 pt-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+            <div
+              class="right lg:w-[547px] lg:h-[334px] mt-6 lg:mt-0 sm:w-2/3 sm:h-80"
+            >
+              <img
+                class="object-cover w-full h-100"
+                src="src/images/mission.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div
+            class="bottom justify-between items-center flex flex-col lg:flex-row"
+          >
+            <div
+              class="bottom lg:w-[547px] lg:h-[334px] mt-6 lg:mt-0 sm:w-2/3 sm:h-80"
+            >
+              <img
+                class="object-cover w-full h-100"
+                src="src/images/mission-2.png"
+                alt=""
+              />
+            </div>
+            <div
+              class="right lg:w-[595px] lg:h-[303px] pt-5 text-center lg:text-left"
+            >
+              <p>Our Vision</p>
+              <p class="text-5xl font-bold">Laser focus</p>
+              <p class="text-gray-500 dark:text-gray-400 pt-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End mission -->
+      <!-- benefits -->
+      <div class="w-full lg:h-[1191px] flex justify-center items-center">
+        <div class="container p-6 lg:p-30">
+          <div class="header text-center">
+            <p class="text-5xl font-bold w-full lg:w-1/2 mx-auto">
+              The benefits of working with us
+            </p>
+          </div>
+          <div
+            class="cards mt-[60px] flex flex-col lg:flex-row justify-center items-center gap-6"
+          >
+            <div class="bg-[#EEF4FA] dark:bg-gray-800 p-5 text-center">
+              <img class="mb-4" src="./src/images/features-Icon-6.svg" alt="" />
+              <p class="text-2xl">Customize with ease</p>
+              <p class="text-gray-500 dark:text-gray-400">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua ut
+                enim.
+              </p>
+            </div>
+            <div class="bg-[#EEF4FA] dark:bg-gray-800 p-5 text-center">
+              <img class="mb-4" src="./src/images/features-Icon-3.svg" alt="" />
+              <p class="text-2xl">Perfectly Responsive</p>
+              <p class="text-gray-500 dark:text-gray-400">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua ut
+                enim.
+              </p>
+            </div>
+            <div class="bg-[#EEF4FA] dark:bg-gray-800 p-5 text-center">
+              <img class="mb-4" src="./src/images/features-Icon.svg" alt="" />
+              <p class="text-2xl">Friendly Support</p>
+              <p class="text-gray-500 dark:text-gray-400">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua ut
+                enim.
+              </p>
+            </div>
+          </div>
+          <div
+            class="bottom flex flex-col lg:flex-row justify-around mt-5 items-center gap-6"
+          >
+            <div class="left text-center">
+              <p class="text-3xl font-bold">100.000+</p>
+              <p class="text-gray-500 dark:text-gray-400">Finsweet Users</p>
+            </div>
+            <div class="right flex flex-wrap justify-center gap-5">
+              <img class="w-[160px]" src="./src/images/benefits.svg" alt="" />
+              <img class="w-[160px]" src="./src/images/benefits-2.svg" alt="" />
+              <img class="w-[160px]" src="./src/images/benefits-3.svg" alt="" />
+              <img class="w-[160px]" src="./src/images/benefits-4.svg" alt="" />
+              <img class="w-[160px]" src="./src/images/benefits-5.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End benefits -->
+      <!-- our team -->
+      <div
+        class="w-full bg-[#EEF4FA] dark:bg-gray-800 flex justify-center items-center lg:p-0 sm:pt-30"
+      >
+        <div class="container p-6 lg:p-30">
+          <div class="header text-center">
+            <p class="text-5xl font-bold w-full lg:w-1/2 mx-auto">
+              Meet our team
+            </p>
+          </div>
+          <div
+            class="cards mt-[60px] flex flex-col lg:flex-row justify-center items-center gap-6"
+          >
+            <div
+              class="p-3 text-center bg-white dark:bg-gray-700 w-full lg:w-[296px] flex-col"
+            >
+              <img
+                class="my-5 size-30 rounded-full object-cover mx-auto"
+                src="./src/images/our team.png"
+                alt=""
+              />
+              <p class="text-2xl">John Smith</p>
+              <p class="text-gray-500 dark:text-gray-400">CEO</p>
+            </div>
+            <div
+              class="p-3 text-center bg-white dark:bg-gray-700 w-full lg:w-[296px] flex-col"
+            >
+              <img
+                class="my-5 size-30 rounded-full object-cover mx-auto"
+                src="./src/images/our team-2.png"
+                alt=""
+              />
+              <p class="text-2xl">Simon Adams</p>
+              <p class="text-gray-500 dark:text-gray-400">CTO</p>
+            </div>
+            <div
+              class="p-3 text-center bg-white dark:bg-gray-700 w-full lg:w-[296px] flex-col"
+            >
+              <img
+                class="my-5 size-30 rounded-full object-cover mx-auto"
+                src="./src/images/our team-3.png"
+                alt=""
+              />
+              <p class="text-2xl">Paul Jones</p>
+              <p class="text-gray-500 dark:text-gray-400">Design Lead</p>
+            </div>
+            <div
+              class="p-3 text-center bg-white dark:bg-gray-700 w-full lg:w-[296px] flex-col"
+            >
+              <img
+                class="my-5 size-30 rounded-full object-cover mx-auto"
+                src="./src/images/our team-4.png"
+                alt=""
+              />
+              <p class="text-2xl">Sara Hardin</p>
+              <p class="text-gray-500 dark:text-gray-400">Project Manager</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End our team -->
+      <!-- footer -->
+      <footer class="bg-[#14153B] text-white py-12">
+        <div class="max-w-6xl mx-auto px-4">
+          <div class="grid md:grid-cols-1 gap-8 items-center">
+            <!-- Left Section -->
+            <div class="flex flex-col lg:flex-row justify-between">
+              <div class="w-full lg:w-1/3">
+                <h2 class="text-3xl font-bold">Finsweet</h2>
+                <p class="mt-3 text-gray-300">
+                  We are always open to discuss your project and improve your
+                  online presence.
+                </p>
+              </div>
+
+              <!-- Right Section -->
+              <div class="w-full lg:w-1/3 mt-6 lg:mt-0">
+                <h2 class="text-3xl font-bold">Let's Talk!</h2>
+                <p class="mt-3 text-gray-300">
+                  We are always open to discuss your project, improve your
+                  online presence, and help with your UX/UI design challenges.
+                </p>
+                <!-- Social Icons -->
+                <div
+                  class="flex space-x-4 mt-4 justify-center lg:justify-start"
+                >
+                  <img src="./src/images/facebook.svg" alt="" />
+                  <img src="./src/images/twitter.svg" alt="" />
+                  <img src="./src/images/instagram.svg" alt="" />
+                  <img src="./src/images/linkedin.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div
+              class="bg-[#FCD980] md:w-[517px] text-gray-900 font-medium mt-6 p-4 gap-4 flex flex-col lg:flex-row justify-center lg:justify-between items-center"
+            >
+              <div class="text-center lg:text-left">
+                <p>Email me at</p>
+                <p class="text-lg text-gray-500 cursor-pointer">
+                  contact@website.com
+                </p>
+              </div>
+              <div class="text-center lg:text-left lg:mt-0">
+                <p>Call us</p>
+                <p class="text-lg text-gray-500 cursor-pointer">
+                  0927 6277 28525
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bottom Section -->
+          <div
+            class="border-t border-gray-700 mt-8 pt-6 flex flex-col md:flex-row justify-between items-center text-gray-400 text-sm"
+          >
+            <p class="m-0">Copyright 2022, Finsweet.com</p>
+            <div class="flex space-x-6 md:mt-0 items-center">
+              <a href="#" class="hover:text-white text-white">Home</a>
+              <a href="#" class="hover:text-white text-white">About Us</a>
+              <a href="#" class="hover:text-white text-white">Features</a>
+              <a href="#" class="hover:text-white text-white">Pricing</a>
+              <a href="#" class="hover:text-white text-white">FAQ</a>
+              <a href="#" class="hover:text-white text-white">Blog</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- End footer -->
+    </div>
+  </body>
+</html>
